@@ -3,6 +3,7 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     screens: {
+      //defined sizes on screens
       sm: "480px",
       md: "768px",
       lg: "976px",
@@ -10,6 +11,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        //defined own colors to use
         brightRed: "hsl(12, 88%, 59%)",
         brightRedLight: "hsl(12, 88%, 69%)",
         brightRedSupLight: "hsl(12, 88%, 95%)",
